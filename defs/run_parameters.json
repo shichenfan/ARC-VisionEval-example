@@ -1,0 +1,20 @@
+{
+  "Model": "VERSPM ARC Test",
+  "Scenario": "L1",
+  "Description": "Test of VERSPM",
+  "Region": "ARC",
+  "BaseYear": "2015",
+  "Years": ["2015", "2050"],
+  "DatastoreName": "Datastore",
+  "DatastoreType": "RD",
+  "Seed": 1,
+  "RequiredVEPackages": [
+    "VESimHouseholds",
+    "VELandUse",
+    "VETransportSupply",
+    "VEHouseholdVehicles",
+    "VEHouseholdTravel",
+    "VEPowertrainsAndFuels",
+    "VETravelPerformance"
+  ]
+}
